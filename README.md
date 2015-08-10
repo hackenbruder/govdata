@@ -1,7 +1,7 @@
 # GovData
 
 # Fakta
-Stručné důvody proč v pohodě a za prachy používat naše API:
+Stručné důvody proč používat naše API:
 
 * Státní správa nemá platný SSL certifikát
 * Státní správa nemá funkční DNS servery
