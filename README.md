@@ -1,6 +1,6 @@
 # GovData
 
-[![Join the chat at https://gitter.im/hackenbruder/govdata](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hackenbruder/govdata?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+[![Chatujte https://gitter.im/hackenbruder/govdata](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hackenbruder/govdata?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 # Fakta
 Stručné důvody proč používat naše API:
