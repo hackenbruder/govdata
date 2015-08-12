@@ -8,7 +8,7 @@ Stručné důvody proč používat naše API:
 * Státní správa nemá highly-available škálovatelné služby
 * Výstupy jsou XML v době masivní adopce JSONu
 * API mají nízké limity a dlouhé odezvy
-* API nemají žádná SDK
+* API nemají SDK
 * Podmínky použití a dokumentace API jsou plné nesmyslů, chyb a výhružek
 
 # API
