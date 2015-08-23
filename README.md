@@ -4,13 +4,18 @@
 
 # Fakta
 Stručné důvody proč používat naše API:
+* Máme a budujeme SDK
+* Je vysoce dostupné a škálovatelné
+* Máme vysoké limity a krátké odezvy
+* SSL zabezpečení s platnými certifikáty je náš standard
 
-* Státní správa nemá platný SSL certifikát
-* Státní správa nemá funkční DNS servery
-* Státní správa nemá highly-available škálovatelné služby
-* Výstupy jsou XML v době masivní adopce JSONu
-* API mají nízké limity a dlouhé odezvy
+Online služby státní správy mají tyto nedostatky:
+* Nejsou vysoce dostupné a škálovatelné
+* API mají nízké limity a velmi dlouhé odezvy
 * API nemají SDK
+* Mají neplatné SSL certifikáty
+* Mají špatně fungující DNS servery
+* Výstupy API jsou pouze v XML v době masivní adopce JSONu
 * Podmínky použití a dokumentace API jsou plné nesmyslů, chyb a výhružek
 
 # API
