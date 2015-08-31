@@ -10,7 +10,7 @@ Důvody vzniku služby shrnujeme v článku [Proč vznikají GovData?](https://m
 
 # Fakta
 
-Stručné důvody proč používat GovData:
+Stručné důvody, proč používat GovData:
 
 * Máme a budujeme SDK
 * Je vysoce dostupné a škálovatelné
