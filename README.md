@@ -17,14 +17,14 @@ Stručné důvody proč používat naše API:
 * Máme vysoké limity a krátké odezvy
 * SSL zabezpečení s platnými certifikáty je náš standard
 
-Online služby mají tyto nedostatky:
+Státní online služby mají tyto nedostatky:
 
 * Nejsou vysoce dostupné a škálovatelné
 * API mají nízké limity a velmi dlouhé odezvy
 * API nemají SDK
 * Mají neplatné SSL certifikáty
-* Mají nespolehlivé DNS servery a dlouhé odezvy požadavků
-* Výstupy API jsou pouze v XML v době masivní adopce JSONu
+* Mají nespolehlivé DNS servery a velmi dlouhé odezvy požadavků
+* Výstupy API pouze v XML v době masivní adopce JSONu
 * Podmínky použití a dokumentace API jsou plné nesmyslů, chyb a výhružek
 
 ## Dostupná data
