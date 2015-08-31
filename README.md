@@ -6,8 +6,7 @@ Důvody vzniku služby shrnujeme v článku [Proč vznikají GovData?](https://m
 
 [![Chatujte https://gitter.im/hackenbruder/govdata](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/hackenbruder/govdata?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-^^^^^^^^^^^^^^^^^^^ Napište nám!
-
+^^^^^^^^^^^^^^^^ Napište nám!
 # Fakta
 
 Stručné důvody, proč používat GovData:
