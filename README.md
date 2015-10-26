@@ -33,12 +33,16 @@ Postupně zpřístupňujeme data:
 
 Konkrétní příklad najdete v článku [Proč vznikají GovData?](https://medium.com/@hackenbruder/pro%C4%8D-vznikaj%C3%AD-govdata-ec08288fee0c)
 
+# Nedodělávky
+
+Plán vývoje najdete na [GitHubu](https://github.com/hackenbruder/govdata/issues). Jakékoli náměty a připomínky jsou vítány!
+
 # SDK
 
 * [GovData Javascript SDK pro Node.js a prohlížeče](https://github.com/hackenbruder/govdata-js)
 * [GovData iOS SDK](https://github.com/hackenbruder/govdata-ios)
 
-Odkazy na uvedené repozitáře obsahují příklady použití SDK.
+Uvedená SDK jsou pokryta automatickými testy. Odkazy na uvedené repozitáře obsahují i příklady použití SDK.
 
 ### RESTful API
 
