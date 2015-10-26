@@ -2,7 +2,7 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
-    <title>GovData</title>
+    <title>GovData by hackenbruder</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -13,6 +13,9 @@
     <section class="page-header">
       <h1 class="project-name">GovData</h1>
       <h2 class="project-tagline">Jsou vysoce dostupnou službou poskytující vybraná open data k přímému použití ve webových a mobilních aplikacích.</h2>
+      <a href="https://github.com/hackenbruder/govdata" class="btn">View on GitHub</a>
+      <a href="https://github.com/hackenbruder/govdata/zipball/master" class="btn">Download .zip</a>
+      <a href="https://github.com/hackenbruder/govdata/tarball/master" class="btn">Download .tar.gz</a>
     </section>
 
     <section class="main-content">
@@ -26,13 +29,13 @@
 <h1>
 <a id="fakta" class="anchor" href="#fakta" aria-hidden="true"><span class="octicon octicon-link"></span></a>Fakta</h1>
 
-<p>Proč používat GovData?</p>
+<p>Stručné důvody, proč používat GovData:</p>
 
 <ul>
-<li>Budujeme <a href="https://github.com/hackenbruder/govdata-js">otevřená SDK</a> pro nejpopulárnější jazyky</li>
-<li>API je vysoce dostupné a škálovatelné</li>
-<li>API má vysoké limity a krátké odezvy</li>
-<li>SSL zabezpečení s platnými certifikáty je standard</li>
+<li>Máme a budujeme SDK</li>
+<li>API je vysoce dostupné</li>
+<li>Máme vysoké limity a krátké odezvy na požadavky</li>
+<li>SSL zabezpečení s platnými certifikáty je standardem</li>
 </ul>
 
 <p>Státní online služby mají tyto nedostatky:</p>
@@ -41,11 +44,11 @@
 <li>Nejsou vysoce dostupné a škálovatelné</li>
 <li>API mají nízké limity a velmi dlouhé odezvy</li>
 <li>API nemají SDK</li>
-<li>Nemají platné SSL certifikáty</li>
-<li>Nemají spolehlivé servery a díky nim velmi dlouhé odezvy požadavků</li>
+<li>Mají neplatné SSL certifikáty</li>
+<li>Mají nespolehlivé DNS servery a velmi dlouhé odezvy požadavků</li>
 <li>Výstupy API pouze v XML v době masivní adopce JSONu</li>
-<li>Nemají kvalitní dokumentaci</li>
-<li>Mají nestandardní podmínky použití</li>
+<li>Mají nedostatečnou dokumentaci</li>
+<li>Mají nevhodné podmínky použití</li>
 </ul>
 
 <h2>
@@ -54,11 +57,16 @@
 <p>Postupně zpřístupňujeme data:</p>
 
 <ul>
-<li>Obchodního rejstříku</li>
-<li>Plátců DPH</li>
+<li>Obchodního a živnostenského rejstříku</li>
+<li>Plátců DPH včetně informací o jejich spolehlivosti a bankovních účtech</li>
 </ul>
 
-<p>Konkrétní příklad jejich použití najdete v článku <a href="https://medium.com/@hackenbruder/pro%C4%8D-vznikaj%C3%AD-govdata-ec08288fee0c">Proč vznikají GovData?</a></p>
+<p>Konkrétní příklad najdete v článku <a href="https://medium.com/@hackenbruder/pro%C4%8D-vznikaj%C3%AD-govdata-ec08288fee0c">Proč vznikají GovData?</a></p>
+
+<h1>
+<a id="nedodělávky" class="anchor" href="#nedod%C4%9Bl%C3%A1vky" aria-hidden="true"><span class="octicon octicon-link"></span></a>Nedodělávky</h1>
+
+<p>Plán vývoje najdete na <a href="https://github.com/hackenbruder/govdata/issues">GitHubu</a>. Jakékoli náměty a připomínky jsou vítány!</p>
 
 <h1>
 <a id="sdk" class="anchor" href="#sdk" aria-hidden="true"><span class="octicon octicon-link"></span></a>SDK</h1>
@@ -68,20 +76,22 @@
 <li><a href="https://github.com/hackenbruder/govdata-ios">GovData iOS SDK</a></li>
 </ul>
 
-<h2>
-<a id="restful-api" class="anchor" href="#restful-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>RESTful API</h2>
-
-<p>Máme povolené CORS pro všechny zdrojové domény.</p>
+<p>Uvedená SDK jsou pokryta automatickými testy. Odkazy na uvedené repozitáře obsahují i příklady použití SDK.</p>
 
 <h3>
-<a id="dotaz" class="anchor" href="#dotaz" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dotaz</h3>
+<a id="restful-api" class="anchor" href="#restful-api" aria-hidden="true"><span class="octicon octicon-link"></span></a>RESTful API</h3>
+
+<p>K API doporučujeme přistupovat prostřednictvím SDK.</p>
+
+<h4>
+<a id="dotaz" class="anchor" href="#dotaz" aria-hidden="true"><span class="octicon octicon-link"></span></a>Dotaz</h4>
 
 <p>Spuštěním následující dotazu získáte aktuální informace o subjektu MFČR.</p>
 
 <p><code>curl -H 'X-Api-Key: ZX1Ap4RUDY2VisBOu2P0e4sEvh2LhWh4Cx8lqoO6' 'https://api.govdata.cz/v1/demo/entity/00006947'</code></p>
 
-<h3>
-<a id="odpověď" class="anchor" href="#odpov%C4%9B%C4%8F" aria-hidden="true"><span class="octicon octicon-link"></span></a>Odpověď</h3>
+<h4>
+<a id="odpověď" class="anchor" href="#odpov%C4%9B%C4%8F" aria-hidden="true"><span class="octicon octicon-link"></span></a>Odpověď</h4>
 
 <p><a href="https://gist.github.com/hackenbruder/7e6590122e4bbe7f77a8">Ukázka API odpovědi pro subjekt MFČR</a></p>
 
